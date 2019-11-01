@@ -1,0 +1,39 @@
+
+#app {
+  /* display: grid; */
+  /* grid-template-rows: 50px 1fr; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width:100%;
+  background-color:#FAFAFA;
+}
+
+#ImageForm{
+  padding-top:100px;
+  grid-column:2;
+  margin:auto;
+}
+
+#signIn{
+  grid-column: 2;
+  margin:auto;
+}
+
+#signUp{
+  grid-column: 2;
+  margin:auto;
+}
+
+#posts{
+  grid-column: 2;
+}
+
+#yourNote{
+  grid-column: 2;
+}
+
+#homepage{
+  margin-top:100px;
+  grid-column: 2;
+}

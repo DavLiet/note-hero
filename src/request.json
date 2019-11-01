@@ -1,0 +1,17 @@
+{
+    "requests": [
+        {
+            "image": {
+                "source": {
+                    "imageUri": "https://i.imgur.com/Nlot5mR.jpg"
+                }
+            },
+            "features": [
+                {
+                    "type": "TEXT_DETECTION",
+                    "maxResults": 1
+                }
+            ]
+        }
+    ]
+}
